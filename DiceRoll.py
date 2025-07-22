@@ -1,6 +1,6 @@
 from tkinter import *
 import random
-
+#This Program stops when the number hits "6" when you hit roll button
 
 def roll():
     def rolling():
