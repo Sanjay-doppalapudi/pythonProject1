@@ -15,8 +15,8 @@ def delete():
 
 window = Tk()
 window.title("ToDo")
-entry = Entry(window)
-listbox = Listbox(window)
+entry = Entry(window, font=('ink free', 15), bg='BLACK', fg='GREEN')
+listbox = Listbox(window, font=('ink free', 15))
 listbox.pack()
 entry.pack()
 button = Button(window, text="Add", command=  add, width=12, height=1)
